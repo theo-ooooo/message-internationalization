@@ -28,8 +28,8 @@
             <input type="text" id="itemName" th:field="*{itemName}" class="form-control">
         </div>
         <div>
-            <label for="price">가격</label>
-            <input type="text" id="price" th:field="*{price}" th:text="#{label.item.price}" class="form-control">
+            <label for="price" th:text="#{label.item.price}">가격</label>
+            <input type="text" id="price" th:field="*{price}"  class="form-control">
         </div>
         <div>
             <label for="quantity" th:text="#{label.item.quantity}">수량</label>
